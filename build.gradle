@@ -1,11 +1,12 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.5.3'
-	id 'io.spring.dependency-management' version '1.1.7'
+	id 'org.springframework.boot' version '2.7.0'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 }
 
 group = 'com.springboot'
 version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
 
 java {
 	toolchain {
@@ -28,7 +29,6 @@ dependencies {
 	implementation 'org.projectlombok:lombok:1.18.30'
 	annotationProcessor 'org.projectlombok:lombok:1.18.30'
 	implementation 'com.fasterxml.jackson.core:jackson-databind'
-	implementation 'javax.persistence:javax.persistence-api:2.2'
 }
 
 tasks.named('test') {
