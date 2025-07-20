@@ -23,7 +23,6 @@ The Invoice Management API provides a RESTful interface for managing invoices an
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/invoice-management-api.git
-   cd invoice-management-api
 
 2. Build the project:
    ```bash
@@ -35,7 +34,7 @@ The Invoice Management API provides a RESTful interface for managing invoices an
 
 3. The API will be available at:
    ```bash
-   http://localhost:8080/invoices.
+   http://localhost:8080/invoices
 
 
 ## Endpoints
